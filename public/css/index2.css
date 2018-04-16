@@ -1,0 +1,145 @@
+.firstrow {
+	background-color: #FFFAFA;
+}
+.jumbotron {
+  padding-top: 10px;
+  margin-bottom: 0px;
+  height: 150px;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  background:transparent;
+  background-image: url(image/logo_3.png);
+}
+
+.jumbotron div{
+    text-align: right;
+	position: relative;
+	top: 100px
+}
+
+.container .jumbotron {
+	padding-right: 5px;
+	border-radius: 0px;
+}
+.logo2 {
+	text-align: center;
+	text-shadow: #000000 0px 2px, #000000 2px 0px, #000000 -2px 0px, 
+  #000000 0px -2px, #000000 -1.4px -1.4px, #000000 1.4px 1.4px, 
+  #000000 1.4px -1.4px, #000000 -1.4px 1.4px
+}
+.mainnav{
+	background-color: #303136;
+}
+.mainnav > li > a{
+	border: medium none;
+}
+.mainnav > li > a:hover{
+    background-color: #af0000 ;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+	border-bottom-color: transparent;
+}
+.mainnav > li.active > a{
+    background-color: #af0000 ;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+	border-bottom-color: transparent;
+}
+.mainnav > li.active > a:focus{
+    background-color: #af0000 ;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+	border-bottom-color: transparent;
+}
+.mainnav > li.active > a:hover{
+    background-color: #af0000 ;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+	border-bottom-color: transparent;
+}
+.mainnav > li> a:focus {
+    background-color: #af0000 ;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+	border-bottom-color: transparent;
+}
+
+.subnav {
+	background-color: #FFFFFF;
+}
+.subnav > li > a{
+	border:  0px;
+}
+.subnav > li > a:hover{
+    color: #555;
+	cursor: default;
+	background-color: #FFF;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+.subnav > li.active > a{
+	font-weight: bold;
+    color: #555;
+	cursor: default;
+	background-color: #FFF;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+.subnav > li> a:focus {
+    color: #555;
+	background-color: #FFF;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+
+.username {
+  color: black; 
+  text-shadow: #FDF5E6 0px 2px, #FDF5E6 2px 0px, #FDF5E6 -2px 0px, 
+  #FDF5E6 0px -2px, #FDF5E6 -1.4px -1.4px, #FDF5E6 1.4px 1.4px, 
+  #FDF5E6 1.4px -1.4px, #FDF5E6 -1.4px 1.4px
+}
+.nav01 {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.nav01 ul{
+    padding-left: 0px;
+}
+
+.nav01 ul li{
+	float: left;
+    border-left: 1px solid #ccc;
+    margin-left: 10px;
+    padding-left: 10px;
+	list-style:none;
+}
+
+.nav01 ul li:nth-child(1) {
+    border-left: none;
+	padding-left: 0px;
+}
+
+.moneytr  {
+	background-color: #FAEBD7
+}
+
+.tab-content {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.lastrow {
+   border-bottom: 1px solid #ddd;
+}

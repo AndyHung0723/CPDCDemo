@@ -1,0 +1,29 @@
+.firstrow {
+	background-color: #FFFAFA;
+}
+.jumbotron {
+  margin-bottom: 0px;
+  height: 230px;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  background:transparent;
+  background-image: url(image/bg.jpg);
+}
+.nav-tabs{
+  background-color:#00BBFF;
+}
+.nav-tabs > li > a{
+  border: medium none;
+}
+.nav-tabs > li > a:hover{
+    background-color: #303136 !important;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+}
+.nav-tabs > li> a:focus {
+    background-color: #303136 !important;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+}
