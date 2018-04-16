@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+	  <link rel="stylesheet" type="text/css" href="css/index2.css"></link>
+	  <link rel="Shortcut Icon" type="image/x-icon" href="css/image/CPDC_log.png" />
+	  <script type="text/javascript" src="js/index.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <title>
+         電子採購系統
+      </title>
+   </head>
+  
+	<body style="background-color: #F5F5F5;font-size:16px;">	
+		<div class="container" style="background-color: #FFFAFA;">
+			<!-- .............................. LOGO ....................................... -->
+			<div class="jumbotron">
+				<div>
+				<h4>
+					<span class="glyphicon glyphicon-user username"></span><span class="username" style="padding-right:10px;"> 崇太科技實業有限公司 陳瀅月</span>
+				</h4>
+				</div>
+			</div>
+			<!-- .............................. 主選單 ....................................... -->
+			<ul class="nav mainnav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#main" style="color:white;" aria-expanded="true">招標中文件</a></li>
+				<li><a data-toggle="tab" href="#mybill" style="color:white;" aria-expanded="true">我的競標案件</a></li>
+				<li><a data-toggle="tab" href="#end" style="color:white;" aria-expanded="true">結標案件</a></li>
+				<li><a data-toggle="tab" href="#account" style="color:white;" aria-expanded="true">帳號管理</a></li>
+			</ul>
+			
+			<!-- .............................. 招標中文件 ....................................... -->
+			<div class="tab-pane fade in active" id="main">
+				<!-- .............................. 招標中文件_副選單 ....................................... -->
+				<ul class="nav subnav nav-tabs">
+					<li class="active">
+						<a data-toggle="tab" href="#home" aria-expanded="true">投標紀錄</a>
+					</li>
+					<li>
+						<a data-toggle="tab" href="#menu1" aria-expanded="true">案件明細</a>
+					</li>
+				</ul>
+				<div class="tab-content">
+			
+				<!-- .............................. 投標紀錄 ....................................... -->
+				<div class="tab-pane fade in active" id="home">
+					<div style="height:15px"></div>
+					<table class="table table-condensed">
+						<thead>
+							<tr class="firstrow">
+								<th>序號</th>
+								<th>處理紀錄</th>
+								<th>處理時間</th>
+								<th width="20%">執行人員</th>
+								<th align="right" width="15%">動作</th>
+							</tr>
+							</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>投標</td>
+								<td>2017/01/01 16:56</td>
+								<td>陳瀅月</td>
+								<td>
+									<button type="button" class="btn btn-warning">
+									<span class="glyphicon glyphicon-save"></span> 下載標單
+									</button>
+								</td>
+							</tr>
+							
+						</tbody>
+					</table>
+					<table class="table table-condensed">
+						<thead>
+							<tr class="firstrow">
+								<th nowrap>項目</th>
+								<th nowrap>品名</th>
+								<th nowrap>廠牌/型號</th>
+								<th nowrap>規格說明</th>
+								<th nowrap>單位</th>
+								<th nowrap>數量</th>
+								<th nowrap>單價</th>
+								<th nowrap>總價</th>
+								<th nowrap>備註</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr style="height:40px;">
+								<td style="line-height:30px">1</td>
+								<td style="line-height:30px">工程塑膠尼龍粒</td>
+								<td style="line-height:30px">RV 2.35</td>
+								<td style="line-height:30px">大包裝 20 包共16,000公斤</td>
+								<td style="line-height:30px">包</td>
+								<td style="line-height:30px">1</td>
+								<td style="line-height:30px"><input type="text" style="text-align:right;" class="form-control" value="18,000"></input></td>
+								<td style="line-height:30px"><input type="text" style="text-align:right;" class="form-control" value="18,000"></input></td>
+								<td style="line-height:30px"><textarea rows="1" cols="15" class="form-control">配合專案需求辦理</textarea></td>
+							</tr>
+							<tr style="height:40px;">
+								<td style="line-height:30px">2</td>
+								<td style="line-height:30px">ABS 塑膠</td>
+								<td style="line-height:30px">CPL</td>
+								<td style="line-height:30px">25公斤小包裝 600包共15,000公斤</td>
+								<td style="line-height:30px">個</td>
+								<td style="line-height:30px">6</td>
+								<td width="10%" style="line-height:30px"><input type="text" style="text-align:right;" class="form-control" value="21,000"></input></td>
+								<td width="10%" style="line-height:30px"><input type="text" style="text-align:right;" class="form-control"  value="126,000"></input></td>
+								<td style="line-height:30px"><textarea rows="1" cols="15" class="form-control">具備相關合格證明</textarea></td>
+							</tr>
+							<tr class="moneytr">
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td align="right"><strong>總金額(未稅)</strong></td>
+								<td align="right"><strong>144,000</strong></td>
+								<td></td>
+							</tr>
+							<tr class="moneytr">
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td align="right"><strong>稅金</strong></td>
+								<td align="right"><strong>7,200</strong></td>
+								<td></td>
+							</tr>
+							<tr class="moneytr">
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td align="right"><strong>總金額</strong></td>
+								<td align="right"><strong>151,200</strong></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table table-condensed">
+						<thead>
+							<tr class="firstrow">
+								<th nowrap>項次</th>
+								<th nowrap>規定應繳交文件</th>
+								<th nowrap width="500"></th>
+								<th nowrap>大小</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr style="height:70px;">
+								<td style="line-height:60px">1</td>
+								<td style="line-height:60px">代理/授權證明</td>
+								<td nowrap style="line-height:60px">
+									<input type="text" value="C:/Scan_latha-sg.ibm.com_11-09-2017_18-01-41.pdf" size="45" style="height:25px">
+									</input>
+									&nbsp&nbsp
+									<button type="button" class="btn btn-success">
+									<span class="glyphicon glyphicon-floppy-disk"></span> 選擇檔案
+									</button>
+								</td>
+								<td style="line-height:60px">292.29 KB</td>
+							</tr>
+							<tr class="lastrow" style="height:70px;">
+								<td width="10%" style="line-height:60px">2</td>
+								<td width="15%" style="line-height:60px">投標標價清單</td>
+								<td width="50%" nowrap style="line-height:60px">
+									<input type="text" value="C:/Scan_latha-sg.ibm.com_11-09-2017_18-01-41.pdf" size="45" style="height:25px">
+									</input>
+									&nbsp&nbsp
+									<button type="button" class="btn btn-success">
+									<span class="glyphicon glyphicon-floppy-disk"></span> 選擇檔案
+									</button>
+								</td>
+								<td width="20%" style="line-height:60px">95.08 KB</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- .............................. 案件明細 ....................................... -->
+				<div class="tab-pane fade" id="menu1">
+					<table class="table table-condensed">
+						<thead>
+							<tr class="firstrow">
+								<th nowrap>項次</th>
+								<th nowrap>詢價案號</th>
+								<th nowrap>品名規格</th>
+								<th nowrap>報價截止日</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr style="height:70px;">
+								<td style="line-height:60px">1</td>
+								<td style="line-height:60px">EPUR-BG024-107-05550</td>
+								<td nowrap style="line-height:60px">
+									工程塑膠尼龍粒/RV 2.35/1包
+								</td>
+								<td style="line-height:60px">2018/01/11 17:00</td>
+							</tr>
+							<tr class="lastrow" style="height:70px;">
+								<td style="line-height:60px">2</td>
+								<td style="line-height:60px">EPUR-BG024-107-05553</td>
+								<td style="line-height:60px">
+									ABS 塑膠/CPL/6個
+								</td>
+								<td style="line-height:60px">2018/02/08 17:00</td>
+							</tr>
+							<tr class="lastrow" style="height:70px;">
+								<td style="line-height:60px">3</td>
+								<td style="line-height:60px">EPUR-BG024-107-05559</td>
+								<td style="line-height:60px">
+									聚丙烯睛纖維/ASD 2.2/12式
+								</td>
+								<td style="line-height:60px">2018/01/13 17:00</td>
+							</tr>
+							<tr class="lastrow" style="height:70px;">
+								<td style="line-height:60px">4</td>
+								<td style="line-height:60px">EPUR-BG024-107-05561</td>
+								<td style="line-height:60px">
+									纖維尼龍粒/TRE/3個
+								</td>
+								<td style="line-height:60px">2018/02/13 17:00</td>
+							</tr>
+							<tr class="lastrow" style="height:70px;">
+								<td style="line-height:60px">5</td>
+								<td style="line-height:60px">EPUR-BG024-107-05566</td>
+								<td style="line-height:60px">
+									耐撞塑膠/FEG/6組
+								</td>
+								<td style="line-height:60px">2018/02/15 17:00</td>
+							</tr>
+							<tr class="lastrow" style="height:70px;">
+								<td style="line-height:60px">6</td>
+								<td style="line-height:60px">EPUR-BG024-107-05571</td>
+								<td style="line-height:60px">
+									聚乙烯睛纖維粒/SCPL/13個
+								</td>
+								<td style="line-height:60px">2018/02/11 17:00</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			</div>
+			
+			<!-- .............................. 我的競標案件 ....................................... -->
+			<div class="tab-pane fade" id="mybill">
+			
+			</div>
+			<!-- .............................. 結標案件 ....................................... -->
+			<div class="tab-pane fade" id="end">
+			
+			</div>
+			<!-- .............................. 帳號管理 ....................................... -->
+			<div class="tab-pane fade" id="account">
+			
+			</div>
+			
+		</div>
+	</body>
+</html>
